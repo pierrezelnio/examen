@@ -1,0 +1,363 @@
+    1  ls
+    2  cd dev
+    3  mkdir dev
+    4  cd dev
+    5  mkdir workspace
+    6  mkdir myrepos
+    7  cd c:
+    8  mkdir dev
+    9  cd dev
+   10  mkdir workspace
+   11  cd workspace/
+   12  mkdir myrepo
+   13  cd myrepo/
+   14  git init
+   15  touch script.py
+   16  ls
+   17  nano script.py 
+   18  ./scipt.py
+   19  git add script.py
+   20  git add script.py
+   21  git commit -m Pz7
+   22  nano script.py 
+   23  gitlog
+   24  git log
+   25  nano script.py 
+   26  git commit -m j'adore pallegrin
+   27  git commit -m crevette
+   28  git commit -m j'adore pallegrin
+   29  git commit -m "crevette"
+   30  git log
+   31  git commit -m "crevette"
+   32  git log
+   33  git add script.py
+   34  git commit -m "crevette"
+   35  git log
+   36  git log
+   37  cd c:
+   38  ls
+   39  cd dev
+   40  cd workspace/
+   41  cd myrepo/
+   42  ls
+   43  git log
+   44  ls
+   45  cd /dev/
+   46  c..
+   47  ..c
+   48  cd c
+   49  c/dev/workspace
+   50  cd c..
+   51  cd c:
+   52  cd /dev/
+   53  ls
+   54  ls
+   55  cd c:
+   56  ls
+   57  cd dev/
+   58  ls
+   59  cd workspace/
+   60  ls
+   61  cd myrepo/
+   62  ls
+   63  git log
+   64  nano script.py 
+   65  git add
+   66  git commit -m "voila"
+   67  git log
+   68  git commit -m "voila"
+   69  nano script.py 
+   70  git add
+   71  git commit -m "voila"
+   72  git log
+   73  git add script.py 
+   74  git commit -m "voila"
+   75  git log
+   76  ls
+   77  ./script.py
+   78  nano script.py 
+   79  ./scipt.py
+   80  ./script.py
+   81  nano script.py 
+   82  nano script.py 
+   83  git add
+   84  git add script.py
+   85  git commit -m "4ème commit sur les tomates"
+   86  git log
+   87  nano script.py 
+   88  git add script.py
+   89  git commit -m "5ème et dernier commit sur les piques-assietes"
+   90  git log
+   91  git checkout 48da7d6143888a85cf4f3d74a50A3e40b7784ad0
+   92  ./script.py
+   93  ./script.py
+   94  git checkout 
+   95  ./script.py
+   96  git checkout a6555b84198c11ae46bfda61798c8a1420e41b75 
+   97  ./script.py
+   98  ./script.py
+   99  git checkout master
+  100  ./script.py
+  101  git checkout 48da7d6143888a85cf4f3d74a50A3e40b7784ad0
+  102  git checkout master
+  103  ./script.py
+  104  ls
+  105  ./script.py
+  106  nano script.py 
+  107  git add script.py 
+  108  git commit -m "6eme commit avec une faute"
+  109  git log
+  110  nano script.py 
+  111  git add script.py 
+  112  git commit -m "7eme commit la faute est corrigée"
+  113  git log
+  114  git branch
+  115  git branch maBranche
+  116  lq
+  117  ls
+  118  git log
+  119  git checkout maBranche 
+  120  git branch -m maBranche idea 
+  121  nano monscript
+  122  git add 
+  123  git add monscript.py
+  124  git commit -m "ajout d'une question"
+  125  git add script.py 
+  126  git commit -m "ajout d'une question"
+  127  commit add script.py 
+  128  git add script.py 
+  129  git commit -m "ajout d'une question"
+  130  git add script.py 
+  131  git commit -m "j'ai maintenant 2 questions"
+  132  git add script.py 
+  133  git commit -m "j'ai maintenant 3 questions"
+  134  git add script.py 
+  135  git commit -m "j'ai maintenant 3 questions"
+  136  git log
+  137  git log --graph
+  138  git log --oneline --graph --color
+  139  nano script.py 
+  140  git add script.py 
+  141  git commit -m "Normandie"
+  142  git log
+  143  git checkout master
+  144  nano script.py 
+  145  git add script.py 
+  146  git commit -m "Calvados
+  147  d
+  148  "
+  149  git log
+  150  git merge idea 
+  151  git add script.py 
+  152  git commit -m "fussssiioooooon"
+  153  git log
+  154  cd c..
+  155  cd c:
+  156  ls 
+  157  cd dev/
+  158  cd workspace/
+  159  cd myrepo/
+  160  ls
+  161  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  162  cd c:
+  163  cd dev/
+  164  cd workspace/
+  165  mkdir firstonlinerepo
+  166  cd firstonlinerepo/
+  167  git init
+  168  git add README.md
+  169  touch README.md
+  170  git add README.md
+  171  nano README.md 
+  172  git commit -m "first commit"
+  173  git remote add origin https://github.com/pierrezelnio/first-online-repo.git
+  174  git push -u origin master
+  175  cd c:
+  176  cd dev/
+  177  cd workspace/
+  178  cd myrepo/
+  179  git remote add origin https://github.com/pierrezelnio/myrepo.git
+  180  git push -u origin master
+  181  ls
+  182  https://github.com/le-goat/myrepo.git
+  183  ls
+  184  cd dev
+  185  ls
+  186  cd workspace/
+  187  ls
+  188  ls
+  189  cd ..
+  190  cd ..
+  191  cd ..
+  192  git clone https://github.com/le-goat/myrepo.git
+  193  git clone https://github.com/le-goat/letest
+  194  git clone https://github.com/le-goat/myrepo
+  195  ls
+  196  cd c..
+  197  cd dev
+  198  ls
+  199  cd workspace/
+  200  ls
+  201  cd c..
+  202  cd c..
+  203  cd c...
+  204  cd c..
+  205  cd c:
+  206  cd dev
+  207  cd workspace/
+  208  ls
+  209  cd myrepo/
+  210  l
+  211  ls
+  212  cd..
+  213  cd ..
+  214  ls
+  215  mkdir projetShared
+  216  ls
+  217  cd projetShared/
+  218  git clone https://github.com/le-goat/myrepo
+  219  cd myrepo/
+  220  nano script.py 
+  221  git log
+  222  git romain 
+  223  git biz
+  224  git commit -m question sur l'origami
+  225  q
+  226  exit
+  227  git commit -m "question sur l'origami"
+  228  git add script.py 
+  229  git commit -m "question sur l'origami"
+  230  git pull 
+  231  git push
+  232  git push print('comment tu vas ?')
+  233  valeur = str(input())
+  234  if valeur == 'y':;     print('super !')
+  235  elif valeur == 'n':
+  236      print('dommage...')
+  237  else:
+  238  git push
+  239  git push
+  240  git push
+  241  git push
+  242  git pull
+  243  git log
+  244  git pull
+  245  git checkout develop 
+  246  git pool
+  247  git pull
+  248  git tag
+  249  git pull
+  250  git pull
+  251  git tag
+  252  git tag
+  253  touch Zebi
+  254  nano Zebi 
+  255  git add
+  256  git add Zebi 
+  257  git commit -m "C'est le début de zebi"
+  258  git push
+  259  ls
+  260  cd c:
+  261  ls
+  262  cd dev/
+  263  ls
+  264  cd workspace/
+  265  ls
+  266  cd myrepo/
+  267  ls
+  268  nano script.py 
+  269  y
+  270  git log
+  271  git checkout 79a03d18cacf3833f6ca8d3eea36549c4958bebb
+  272  nano script.py 
+  273  git checkout master
+  274  nano script.py 
+  275  git mino
+  276  cd c:/dev/workspace
+  277  mkdir examen
+  278  ls
+  279  git init examen/
+  280  cd examen/
+  281  nano script.py
+  282  ls
+  283  touch script.py
+  284  ls
+  285  nano script.py 
+  286  git add
+  287  git commit -m "premier commit"
+  288  git log
+  289  git add
+  290  git add script.py 
+  291  git commit -m "premier edit du scipt"
+  292  git log
+  293  nano script.py 
+  294  git add script.py 
+  295  git commit -m "ajout d'un deuxième print"
+  296  git log
+  297  nano script.py 
+  298  git add script.py 
+  299  git commit -m "ajout d'un print sur la langue francaise"
+  300  git log
+  301  nano script.py 
+  302  git add script.py 
+  303  git commit -m "un dernier print sur mon chiffre favori"
+  304  git log
+  305  git remote add origin https://github.com/pierrezelnio/examen.git
+  306  git push -u origin master
+  307  nano script.py 
+  308  git add script.py 
+  309  git commit -m "petite modification philosophique sur la vie"
+  310  git log
+  311  git push origin master
+  312  git branch idea
+  313  git push origin idea
+  314  git checkout idea 
+  315  ls
+  316  nano script.py 
+  317  nano script.py 
+  318  git add script.py 
+  319  git commit -m "Première question"
+  320  git log
+  321  nano script.py 
+  322  git add script.py 
+  323  git commit -m "question supplémentaire orientée culinaire"
+  324  git log
+  325  nano script.py 
+  326  git add script.py 
+  327  git commit -m "encore une question, sur les super-héros cette fois"
+  328  git log
+  329  $ git push origin idea
+  330  git push origin idea
+  331  git checkout master
+  332  git merge idea 
+  333  git tag -a v1.0 -m 'V1.0 la pratique je maîtrise'
+  334  git tag
+  335  git push origin master
+  336  git log
+  337  git checkout 910bc6709d651be9a77d99d8c6e04a22d9a47f24
+  338  git branch hotfix
+  339  git checkout hotfix 
+  340  nano script.py 
+  341  git add script.py 
+  342  git commit -m "ajout d'un print depuis hotfix"
+  343  git log
+  344  git push origin hotfix
+  345  git checkout master 
+  346  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+  347  git gui
+  348  cd ..
+  349  ls
+  350  cd ..
+  351  cd ..
+  352  cd ..
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd c:
+  357  cd c:/dev/workspace
+  358  cd examen/
+  359  ls
+  360  git push origin master 
+  361  touch cmds
+  362  ls
+  363  history > cmds 
